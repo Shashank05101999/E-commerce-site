@@ -35,10 +35,12 @@ listProductHTML.addEventListener("click", (event) => {
   let positionClick = event.target;
   if (positionClick.classList.contains("addCart")) {
     let id_product = positionClick.parentElement.dataset.id;
+    console.log("cgfbfjhgf");
     addToCart(id_product);
   }
 });
 const addToCart = (product_id) => {
+  console.log("shashaNK");
   let positionThisProductInCart = cart.findIndex(
     (value) => value.product_id == product_id
   );
