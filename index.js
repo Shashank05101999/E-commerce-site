@@ -4,7 +4,8 @@ let iconCart = document.querySelector(".icon-cart");
 let body = document.querySelector("body");
 let closeCart = document.querySelector(".close");
 let products = [];
-// let cart = [];
+let cart = [];
+
 
 iconCart.addEventListener("click", () => {
   body.classList.toggle("showCart");
